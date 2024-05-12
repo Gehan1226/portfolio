@@ -29,7 +29,7 @@ span.name {
 .title-2 {
   font-size: 28px;
   color: #E4E9F7;
-  min-width: 300px;
+  min-width: 260px;
 }
 
 span.txt-title2-mini {
@@ -74,46 +74,41 @@ span.txt-title2-mini {
   }
 }
 
-.button1 {
-  position: absolute;
-  color: #0ff;
-  font-size: 18px;
-  border: 1px solid #0ff;
-  border-radius: 20px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  width: 150px;
-  text-decoration: none;
-  letter-spacing: 2px;
-
-}
-
-.button1:hover {
-  background: #0fff;
+.button:hover {
   color: #000;
-  box-shadow: 0 0 50px #0ff, 0 0 21px #0ff;
   transition: all .3s;
   transform: translateY(-5px);
+  box-shadow: 5px 10px 10px rgb(26, 121, 255);
 }
 
-.button2 {
-  position: absolute;
-  color: #0ff;
-  font-size: 18px;
-  border: 1px solid #0ff;
-  border-radius: 20px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  width: 230px;
+.fa {
+  padding: 20px;
+  font-size: 13px;
+  width: 50px;
+  text-align: center;
   text-decoration: none;
-  letter-spacing: 2px;
-  margin-left: 250px;
+  border-radius: 50%;
+  
 }
 
-.button2:hover {
-  background: #0fff;
-  color: #000;
-  box-shadow: 0 0 50px #0ff, 0 0 21px #0ff;
-  transition: all .3s;
-  transform: translateY(-5px);
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 204, 255);
+}
+
+.fa-linkedin {
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 204, 255);
+}
+.fa-google {
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 204, 255);
+}
+
+.fa-github{
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 204, 255);
 }
