@@ -1,0 +1,119 @@
+body {
+  background-color: #18191a;
+}
+
+.title-1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../asset/font-1.ttf);
+}
+
+
+span.name {
+  color: red;
+  font-family: myfont;
+  text-shadow: 0 15px 30px rgba(100, 1, 1, 1);
+}
+
+#profile-img {
+  box-shadow: rgb(238, 3, 3) 0px 2px 20px 4px;
+  border-radius: 5px;
+}
+
+.title-2 {
+  font-size: 28px;
+  color: #E4E9F7;
+  min-width: 300px;
+}
+
+span.txt-title2-mini {
+  color: #007FFF;
+  text-shadow: 0 10px 20px rgb(26, 30, 255);
+}
+
+.text-1 {
+  font-size: 18px;
+  color: #686a6e;
+  text-align: justify;
+}
+
+.animation-icon1 {
+  border: 1px solid rgb(0, 115, 255);
+  border-radius: 10px;
+  padding: 10px;
+  animation: key1 .9s ease infinite alternate;
+}
+
+.animation-icon2 {
+  border: 1px solid rgb(0, 115, 255);
+  border-radius: 10px;
+  padding: 10px;
+  animation: key1 .9s ease infinite alternate;
+}
+
+.animation-icon3 {
+  border: 1px solid rgb(0, 115, 255);
+  border-radius: 10px;
+  padding: 10px;
+  animation: key1 .9s ease infinite alternate;
+}
+
+@keyframes key1 {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.button1 {
+  position: absolute;
+  color: #0ff;
+  font-size: 18px;
+  border: 1px solid #0ff;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  width: 150px;
+  text-decoration: none;
+  letter-spacing: 2px;
+
+}
+
+.button1:hover {
+  background: #0fff;
+  color: #000;
+  box-shadow: 0 0 50px #0ff, 0 0 21px #0ff;
+  transition: all .3s;
+  transform: translateY(-5px);
+}
+
+.button2 {
+  position: absolute;
+  color: #0ff;
+  font-size: 18px;
+  border: 1px solid #0ff;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  width: 230px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-left: 250px;
+}
+
+.button2:hover {
+  background: #0fff;
+  color: #000;
+  box-shadow: 0 0 50px #0ff, 0 0 21px #0ff;
+  transition: all .3s;
+  transform: translateY(-5px);
+}
