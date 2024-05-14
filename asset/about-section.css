@@ -1,0 +1,15 @@
+.card-main {
+    background-color: #31363F;
+    box-shadow: rgba(0, 26, 255, 0.3) 0px 19px 38px, rgba(9, 2, 99, 0.22) 0px 15px 12px;
+    color: white;
+}
+
+img{
+    min-width: 100px;
+    max-width: 150px;
+}
+
+img:hover{
+    transition: all .3s;
+    transform: translateY(-7px);
+}
