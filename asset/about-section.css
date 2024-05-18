@@ -1,7 +1,9 @@
-.card-main {
-    background-color: #31363F;
-    box-shadow: rgba(0, 26, 255, 0.3) 0px 19px 38px, rgba(9, 2, 99, 0.22) 0px 15px 12px;
+#title-edu{
     color: white;
+}
+.card-main {
+    background-color: #1f2229;
+    color: rgb(202, 198, 198);
 }
 
 #title-skil{
@@ -32,3 +34,4 @@
 .image-container:hover .image-overlay {
     opacity: 1;
 }
+
