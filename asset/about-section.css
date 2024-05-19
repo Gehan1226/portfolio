@@ -4,6 +4,11 @@
 .card-main {
     background-color: #1f2229;
     color: rgb(202, 198, 198);
+    border-radius: 10px;
+}
+
+.para-myself{
+    text-align: justify;
 }
 
 #title-skil{

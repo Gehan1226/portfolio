@@ -2,7 +2,7 @@ body {
   background-color: #121212;
   scroll-behavior: smooth;
 }
-  
+
 
 .title-1 {
   color: white;
@@ -90,12 +90,13 @@ span.txt-title2-mini {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  
+
 }
 
 .fa:hover {
   opacity: 0.7;
 }
+
 .fa-facebook {
   border: 1px solid rgb(0, 195, 255);
   color: rgb(0, 204, 255);
@@ -105,17 +106,19 @@ span.txt-title2-mini {
   border: 1px solid rgb(0, 195, 255);
   color: rgb(0, 204, 255);
 }
+
 .fa-google {
   border: 1px solid rgb(0, 195, 255);
   color: rgb(0, 204, 255);
 }
 
-.fa-github{
+.fa-github {
   border: 1px solid rgb(0, 195, 255);
   color: rgb(0, 204, 255);
 }
 
 
-footer{
+footer {
   background-color: rgba(93, 90, 90, 0.45);
 }
+
