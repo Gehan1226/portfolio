@@ -1,10 +1,34 @@
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0c4fa6 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0c4fa6;
+  border-radius: 15px;
+  border: 3px solid #faf9f9;
+}
+
 body {
   color: #224;
   background:
-    url(../asset/images/pc-bg.png) center / cover no-repeat fixed;
+    url(../asset/images/bg-2.png) center / cover no-repeat fixed;
   scroll-behavior: smooth;
+
 }
-.content{
+
+.content {
   backdrop-filter: blur(21px) saturate(200%);
   -webkit-backdrop-filter: blur(21px) saturate(200%);
   background-color: rgba(17, 25, 40, 0.92);
@@ -129,5 +153,5 @@ span.txt-title2-mini {
 
 
 footer {
-  background-color: rgba(93, 90, 90, 0.45);
+  background-color: rgb(57, 55, 55);
 }
